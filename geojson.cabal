@@ -37,13 +37,13 @@ library
     default-language:   Haskell2010
 
     build-depends:      base < 5 &&     >= 4
-                    ,   aeson           >= 0.8       && < 1.0
-                    ,   lens            >= 4.11      && < 4.13
-                    ,   semigroups      == 0.16.*
-                    ,   text            == 1.2.*
-                    ,   transformers    >= 0.3       && < 0.5
-                    ,   validation      == 0.5.*
-                    ,   vector          == 0.10.*
+                    ,   aeson           
+                    ,   lens            
+                    ,   semigroups      
+                    ,   text            
+                    ,   transformers    
+                    ,   validation      
+                    ,   vector          
 
     ghc-options:        -Wall
                         -fno-warn-unused-imports
@@ -82,11 +82,11 @@ test-suite              doctests
                         Haskell2010
 
     build-depends:      base < 5 && >= 3
-                    ,   bytestring          == 0.10.*
-                    ,   doctest             == 0.10.*
-                    ,   filepath            >= 1.3     && < 1.5
-                    ,   directory           == 1.2.*
-                    ,   QuickCheck          == 2.8.*
+                    ,   bytestring        
+                    ,   doctest           
+                    ,   filepath         
+                    ,   directory         
+                    ,   QuickCheck        
                     ,   template-haskell
 
     ghc-options:
